@@ -1,0 +1,31 @@
+#include <iostream>
+
+using namespace std;
+
+double x,y;
+char znak;
+
+
+int main()
+{
+    std::cout<<"Wprowadz pierwsza liczbe: ";
+    std::cin>>x;
+    std::cout<<"Wprowadz znak dodawania, odejmowania, dzielenia lub mnozenia : ";
+    std::cin>>znak;
+    std::cout<<"Wprowadz druga liczbe: ";
+    std::cin>>y;
+    if (znak=='+') {std::cout<<"Wynik dodawania to: "<<x+y;}
+    if (znak=='-') {std::cout<<"Wynik odjmowania to: "<<x-y;}
+    if (znak=='*') {std::cout<<"Wynik mnozenia to: "<<x*y;}
+    if (znak=='/') {std::cout<<"Wynik dodawania to: "<<x/y;}
+    
+    
+
+    return 0;
+}
+
+
+
+
+Prosty kalkulator c++ 
+Wiktor Banaszak
